@@ -1,6 +1,7 @@
 package com.sparta.sparta.scheduleapp.entity;
 
 import java.time.LocalDateTime;
+
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
