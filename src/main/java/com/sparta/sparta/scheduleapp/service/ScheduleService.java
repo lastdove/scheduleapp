@@ -4,12 +4,14 @@ import com.sparta.sparta.scheduleapp.dao.ScheduleDAO;
 import com.sparta.sparta.scheduleapp.dto.ScheduleRequestDTO;
 import com.sparta.sparta.scheduleapp.dto.ScheduleResponseDTO;
 import com.sparta.sparta.scheduleapp.entity.Schedule;
+import org.springframework.stereotype.Service;
 
 import java.sql.SQLException;
 import java.time.LocalDateTime;
 import java.util.List;
 import java.util.stream.Collectors;
 
+@Service
 public class ScheduleService {
 
     private final ScheduleDAO scheduleDAO = new ScheduleDAO();
